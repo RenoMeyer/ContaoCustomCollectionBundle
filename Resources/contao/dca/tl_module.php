@@ -8,26 +8,24 @@ $GLOBALS['TL_DCA']['tl_module']['palettes']['ccol']    = '{title_legend},name,ty
 /**
  * Add fields to tl_module
  */
-$GLOBALS['TL_DCA']['tl_module']['fields']['collection'] = array
-(
+$GLOBALS['TL_DCA']['tl_module']['fields']['collection'] = [
     'label'                   => &$GLOBALS['TL_LANG']['tl_module']['collection'],
     'exclude'                 => true,
     'inputType'               => 'radio',
-    'options_callback'        => array('tl_module_collection', 'getCollections'),
-    'eval'                    => array('multiple'=>false, 'mandatory'=>true),
+    'options_callback'        => ['tl_module_collection', 'getCollections'],
+    'eval'                    => ['multiple'=>false, 'mandatory'=>true],
     'sql'                     => "blob NULL"
-);
+];
 
-$GLOBALS['TL_DCA']['tl_module']['fields']['collection_template'] = array
-(
+$GLOBALS['TL_DCA']['tl_module']['fields']['collection_template'] = [
     'label'                   => &$GLOBALS['TL_LANG']['tl_module']['collection_template'],
     'default'                 => 'collection_default',
     'exclude'                 => true,
     'inputType'               => 'select',
-    'options_callback'        => array('tl_module_collection', 'getCollectionTemplates'),
-    'eval'                    => array('tl_class'=>'w50'),
+    'options_callback'        => ['tl_module_collection', 'getCollectionTemplates'],
+    'eval'                    => ['tl_class'=>'w50'],
     'sql'                     => "varchar(64) NOT NULL default ''"
-);
+];
 
 
 /**
@@ -56,10 +54,10 @@ class tl_module_collection extends Backend
     {
         if (!$this->User->isAdmin && !is_array($this->User->news))
         {
-            return array();
+            return [];
         }
 
-        $arrArchives = array();
+        $arrArchives = [];
         $objArchives = $this->Database->execute("SELECT id, colType FROM tl_custom_collection_archive ORDER BY colType");
 
         while ($objArchives->next())

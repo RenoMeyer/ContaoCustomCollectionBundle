@@ -1,6 +1,6 @@
 <?php
 
-namespace CustomCollection\Model;
+namespace Oneup\Bundle\ContaoCustomCollectionBundle\Model;
 
 class CustomCollectionModel extends \Model
 {

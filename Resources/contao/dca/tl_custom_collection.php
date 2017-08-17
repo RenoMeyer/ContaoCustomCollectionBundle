@@ -554,7 +554,7 @@ class tl_custom_collection extends Backend
      */
     public function addItem($arrRow)
     {
-        return '<div class="tl_custom_collection_left">' . $arrRow['title'] . ' <span style="color:#b3b3b3;padding-left:3px">[' . Date::parse(Config::get('datimFormat'), $arrRow['tstamp']) . ']</span></div>';
+        return '<div class="tl_custom_collection_left">' . $arrRow['title'] . '</div>';
     }
 
     /**

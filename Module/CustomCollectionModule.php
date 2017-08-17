@@ -1,8 +1,8 @@
 <?php
 
-namespace CustomCollection\Module;
+namespace Oneup\Bundle\ContaoCustomCollectionBundle\Module;
 
-use CustomCollection\Model\CustomCollectionModel;
+use Oneup\Bundle\ContaoCustomCollectionBundle\Model\CustomCollectionModel;
 /**
  * Parent class for news modules.
  *

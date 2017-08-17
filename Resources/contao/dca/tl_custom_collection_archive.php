@@ -3,121 +3,100 @@
 /**
  * Table tl_custom_collection_archive
  */
-$GLOBALS['TL_DCA']['tl_custom_collection_archive'] = array
-(
-
+$GLOBALS['TL_DCA']['tl_custom_collection_archive'] = [
     // Config
-    'config' => array
-    (
+    'config' => [
         'dataContainer'               => 'Table',
-        'ctable'                      => array('tl_custom_collection'),
+        'ctable'                      => ['tl_custom_collection'],
         'switchToEdit'                => true,
         'enableVersioning'            => true,
         'onload_callback'             => [
             ['tl_custom_collection_archive', 'checkPermission']
         ],
-        'sql' => array
-        (
-            'keys' => array
-            (
+        'sql' => [
+            'keys' => [
                 'id' => 'primary'
-            )
-        )
-    ),
+            ]
+        ]
+    ],
 
     // List
-    'list' => array
-    (
-        'sorting' => array
-        (
+    'list' => [
+        'sorting' => [
             'mode'                    => 1,
-            'fields'                  => array('coltype'),
+            'fields'                  => ['coltype'],
             'flag'                    => 1,
             'panelLayout'             => 'filter;search,limit'
-        ),
-        'label' => array
-        (
-            'fields'                  => array('coltype'),
+        ],
+        'label' => [
+            'fields'                  => ['coltype'],
             'format'                  => '%s'
-        ),
-        'global_operations' => array
-        (
-            'all' => array
-            (
+        ],
+        'global_operations' => [
+            'all' => [
                 'label'               => &$GLOBALS['TL_LANG']['MSC']['all'],
                 'href'                => 'act=select',
                 'class'               => 'header_edit_all',
                 'attributes'          => 'onclick="Backend.getScrollOffset()" accesskey="e"'
-            )
-        ),
-        'operations' => array
-        (
-            'edit' => array
-            (
+            ]
+        ],
+        'operations' => [
+            'edit' => [
                 'label'               => &$GLOBALS['TL_LANG']['tl_custom_collection_archive']['edit'],
                 'href'                => 'table=tl_custom_collection',
                 'icon'                => 'edit.gif'
-            ),
-            'editheader' => array
-            (
+            ],
+            'editheader' => [
                 'label'               => &$GLOBALS['TL_LANG']['tl_custom_collection_archive']['editheader'],
                 'href'                => 'act=edit',
                 'icon'                => 'header.gif',
-                'button_callback'     => array('tl_custom_collection_archive', 'editHeader')
-            ),
-            'copy' => array
-            (
+                'button_callback'     => ['tl_custom_collection_archive', 'editHeader']
+            ],
+            'copy' => [
                 'label'               => &$GLOBALS['TL_LANG']['tl_custom_collection_archive']['copy'],
                 'href'                => 'act=copy',
                 'icon'                => 'copy.gif',
-                'button_callback'     => array('tl_custom_collection_archive', 'copyArchive')
-            ),
-            'delete' => array
-            (
+                'button_callback'     => ['tl_custom_collection_archive', 'copyArchive']
+            ],
+            'delete' => [
                 'label'               => &$GLOBALS['TL_LANG']['tl_custom_collection_archive']['delete'],
                 'href'                => 'act=delete',
                 'icon'                => 'delete.gif',
                 'attributes'          => 'onclick="if(!confirm(\'' . $GLOBALS['TL_LANG']['MSC']['deleteConfirm'] . '\'))return false;Backend.getScrollOffset()"',
-                'button_callback'     => array('tl_custom_collection_archive', 'deleteArchive')
-            )
-        )
-    ),
+                'button_callback'     => ['tl_custom_collection_archive', 'deleteArchive']
+            ]
+        ]
+    ],
 
     // Palettes
-    'palettes' => array
-    (
-        '__selector__'                => array('protected'),
+    'palettes' => [
+        '__selector__'                => ['protected'],
         'default'                     => '{type_legend},coltype;'
-    ),
+    ],
 
     // Subpalettes
-    'subpalettes' => array
-    (
+    'subpalettes' => [
         'protected'                   => 'groups'
-    ),
+    ],
 
     // Fields
-    'fields' => array
-    (
-        'id' => array
-        (
+    'fields' => [
+        'id' => [
             'sql'                     => "int(10) unsigned NOT NULL auto_increment"
-        ),
-        'tstamp' => array
-        (
+        ],
+        'tstamp' => [
             'sql'                     => "int(10) unsigned NOT NULL default '0'"
-        ),
-        'coltype' => array
-        (
+        ],
+        'coltype' => [
             'label'                   => &$GLOBALS['TL_LANG']['tl_custom_collection_archive']['coltype'],
             'exclude'                 => true,
             'search'                  => true,
             'inputType'               => 'text',
-            'eval'                    => array('mandatory'=>true, 'maxlength'=>255),
+            'eval'                    => ['mandatory'=>true, 'maxlength'=>255],
             'sql'                     => "varchar(255) NOT NULL default ''"
-        )
-    )
-);
+        ]
+    ]
+];
 
 
 /**
@@ -156,7 +135,7 @@ class tl_custom_collection_archive extends Backend
         // Set root IDs
         if (!is_array($this->User->news) || empty($this->User->news))
         {
-            $root = array(0);
+            $root = [0];
         }
         else
         {
@@ -242,7 +221,7 @@ class tl_custom_collection_archive extends Backend
                 $session = $this->Session->getData();
                 if (Input::get('act') == 'deleteAll' && !$this->User->hasAccess('delete', 'ccolp'))
                 {
-                    $session['CURRENT']['IDS'] = array();
+                    $session['CURRENT']['IDS'] = [];
                 }
                 else
                 {
