@@ -1,0 +1,14 @@
+<ul class="images">
+  <?php foreach ($this->images as $key=>$image): ?>
+    <?php if ($image->addImage): ?>
+      <li class="<?= $class ?> <?= $image->class ?>">
+        <figure class="image_container">
+          <?php $this->insert('picture_default', $image->picture); ?>
+          <?php if ($image->caption): ?>
+            <figcaption class="caption"><?= $image->caption ?></figcaption>
+          <?php endif; ?>
+        </figure>
+      </li>
+    <?php endif; ?>
+  <?php endforeach; ?>
+</ul>

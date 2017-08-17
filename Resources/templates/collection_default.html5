@@ -1,0 +1,4 @@
+
+<li class="item item-<?= $this->count ?><?= $this->class ?>">
+  <h2><?= $this->title ?></h2>
+</li>

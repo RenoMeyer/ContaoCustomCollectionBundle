@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/custom-collection/languages/en/tl_module.php" source-language="en">
+    <body>
+      <trans-unit id="tl_module.collection.0">
+        <source>Collection</source>
+      </trans-unit>
+      <trans-unit id="tl_module.collection.1">
+        <source>Please select a collection.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.collection_template.0">
+        <source>Collection Template</source>
+      </trans-unit>
+      <trans-unit id="tl_module.collection_template.1">
+        <source>Please select a template.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

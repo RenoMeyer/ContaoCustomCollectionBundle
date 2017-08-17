@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/custom-collection/languages/en/tl_custom_collection
+    _archive.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_custom_collection_archive.coltype.0">
+        <source>Collection type</source>
+        <target>Sammlungtyp</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.coltype.1">
+        <source>Please enter a collection type.</source>
+        <target>Bitte geben Sie den Sammlungstyp ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.tstamp.0">
+        <source>Revision date</source>
+        <target>Änderungsdatum</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.tstamp.1">
+        <source>Date and time of the latest revision</source>
+        <target>Datum und Uhrzeit der letzten Änderung</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.type_legend">
+        <source>Collection Type</source>
+        <target>Sammlungstyp</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.new.0">
+        <source>New collection</source>
+        <target>Neue Sammlung</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.new.1">
+        <source>Create a new custom collection</source>
+        <target>Eine neue Sammlung erstellen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.show.0">
+        <source>collection details</source>
+        <target>Sammlungsdetails</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.show.1">
+        <source>Show the details of collection %s</source>
+        <target>Die Details der Sammlung %s anzeigen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.edit.0">
+        <source>Edit collection</source>
+        <target>Sammlung bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.edit.1">
+        <source>Edit collection %s</source>
+        <target>Sammlung %s bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.editheader.0">
+        <source>Edit collection settings</source>
+        <target>Sammlung bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.editheader.1">
+        <source>Edit the settings of collection %s</source>
+        <target>Einstellungen der Sammlung %s bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.copy.0">
+        <source>Duplicate collection</source>
+        <target>Sammlung duplizieren</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.copy.1">
+        <source>Duplicate collection %s</source>
+        <target>Sammlung %s duplizieren</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.delete.0">
+        <source>Delete collection</source>
+        <target>Sammlung löschen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection_archive.delete.1">
+        <source>Delete collection %s</source>
+        <target>Sammlung %s löschen</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

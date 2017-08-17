@@ -1,0 +1,270 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/custom-collection/languages/en/tl_custom_collection.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_custom_collection.title.0">
+        <source>Title</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.title.1">
+        <source>Please enter the news title.</source>
+        <target>Bitte geben Sie den Titel ein.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alias.0">
+        <source>Alias</source>
+        <target>Alias</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alias.1">
+        <source>The alias is a unique reference to the collection item which can be called instead of its numeric ID.</source>
+        <target>Der Alias ist eine eindeutige Referenz, die anstelle der numerischen Item-ID aufgerufen werden kann.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.text.0">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.text.1">
+        <source>You can use HTML tags to format the text.</source>
+        <target>Sie können HTML-Tags verwenden, um den Text zu formatieren.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.addImage.0">
+        <source>Add an image</source>
+        <target>Ein Bild hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.addImage.1">
+        <source>Add an image to the news item.</source>
+        <target>Dem Beitrag ein Bild hinzufügen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.singleSRC.0">
+        <source>Source file</source>
+        <target>Quelldatei</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.singleSRC.1">
+        <source>Please select a file or folder from the files directory.</source>
+        <target>Bitte wählen Sie eine Datei aus der Dateiübersicht.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alt.0">
+        <source>Alternate text</source>
+        <target>Alternativer Text</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alt.1">
+        <source>Here you can enter an alternate text for the image (&lt;em&gt;alt&lt;/em&gt; attribute).</source>
+        <target>Hier können Sie einen alternativen Text für das Bild eingeben (&lt;em&gt;alt&lt;/em&gt;-Attribut).</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.size.0">
+        <source>Image size</source>
+        <target>Bildgröße</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.size.1">
+        <source>Here you can set the image dimensions and the resize mode.</source>
+        <target>Hier können Sie die Abmessungen des Bildes und den Skalierungsmodus festlegen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.multiSRC.0">
+        <source>Source files</source>
+        <target>Quelldateien</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.multiSRC.1">
+        <source>Please select one or more files or folders from the files directory. If you select a folder, its files will be included automatically.</source>
+        <target>Bitte wählen Sie eine oder mehr Dateien oder Ordner aus der Dateiübersicht. Wenn Sie einen Ordner auswählen, werden die darin enthaltenen Dateien automatisch eingefügt.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.orderSRC.0">
+        <source>Sort order</source>
+        <target>Sortierreihenfolge</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.orderSRC.1">
+        <source>The sort order of the items.</source>
+        <target>Die Sortierreihenfolge der Elemente.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.numberOfItems.0">
+        <source>Total number of images</source>
+        <target>Gesamtzahl der Bilder</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.numberOfItems.1">
+        <source>Here you can limit the total number of images. Set to 0 to show all.</source>
+        <target>Hier können Sie die Gesamtzahl der Bilder begrenzen. Geben Sie 0 ein, um alle anzuzeigen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.sortBy.0">
+        <source>Order by</source>
+        <target>Sortieren nach</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.sortBy.1">
+        <source>Please choose the sort order.</source>
+        <target>Bitte wählen Sie die Sortierreihenfolge aus.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.galleryTpl.0">
+        <source>Gallery template</source>
+        <target>Galerietemplate</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.galleryTpl.1">
+        <source>Here you can select the gallery template.</source>
+        <target>Hier können Sie das Galerietemplate auswählen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.html.0">
+        <source>HTML code</source>
+        <target>HTML-Code</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.html.1">
+        <source>You can modify the list of allowed HTML tags in the back end settings.</source>
+        <target>Sie können die Liste der erlaubten HTML-Tags in den Backend-Einstellungen ändern.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listtype.0">
+        <source>List type</source>
+        <target>Listentyp</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listtype.1">
+        <source>Please choose the type of list.</source>
+        <target>Bitte wählen Sie den Typ der Liste.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listitems.0">
+        <source>List items</source>
+        <target>Listeneinträge</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listitems.1">
+        <source>If JavaScript is disabled, make sure to save your changes before modifying the order.</source>
+        <target>Wenn JavaScript deaktiviert ist, speichern Sie unbedingt Ihre Änderungen, bevor Sie die Reihenfolge ändern.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.linkTitle.0">
+        <source>Link text</source>
+        <target>Link-Text</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.linkTitle.1">
+        <source>The link text will be displayed instead of the target URL.</source>
+        <target>Der Link-Text wird anstelle der Link-Adresse angezeigt.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.titleText.0">
+        <source>Link title</source>
+        <target>Link-Titel</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.titleText.1">
+        <source>The link title is added as &lt;em&gt;title&lt;/em&gt; attribute in the HTML markup.</source>
+        <target>Der Link-Titel wird als &lt;em&gt;title&lt;/em&gt;-Attribut im HTML-Markup eingefügt.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cssClass.0">
+        <source>CSS class</source>
+        <target>CSS-Klasse</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cssClass.1">
+        <source>Here you can enter one or more classes.</source>
+        <target>Hier können Sie eine oder mehrere Klassen eingeben.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.published.0">
+        <source>Publish item</source>
+        <target>Beitrag veröffentlichen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.published.1">
+        <source>Make the news item publicly visible on the website.</source>
+        <target>Den Beitrag auf der Webseite anzeigen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.start.0">
+        <source>Show from</source>
+        <target>Anzeigen ab</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.start.1">
+        <source>Do not show the news item on the website before this day.</source>
+        <target>Den Beitrag erst ab diesem Tag auf der Webseite anzeigen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.stop.0">
+        <source>Show until</source>
+        <target>Anzeigen bis</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.stop.1">
+        <source>Do not show the news item on the website on and after this day.</source>
+        <target>Den Beitrag nur bis zu diesem Tag auf der Webseite anzeigen.</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.title_legend">
+        <source>Collection title</source>
+        <target>Sammlungstitel</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.text_legend">
+        <source>Text/HTML/Code</source>
+        <target>Text/HTML/Code</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.list_legend">
+        <source>List items</source>
+        <target>Listeneinträge</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.link_legend">
+        <source>Hyperlink settings</source>
+        <target>Hyperlink-Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.template_legend">
+        <source>Template settings</source>
+        <target>Template-Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.image_legend">
+        <source>Image settings</source>
+        <target>Bild-Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.expert_legend">
+        <source>Expert settings</source>
+        <target>Experten-Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.publish_legend">
+        <source>Publish settings</source>
+        <target>Veröffentlichung</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.new.0">
+        <source>New item</source>
+        <target>Neues item</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.new.1">
+        <source>Create a new item</source>
+        <target>Ein neues Item erstellen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.edit.0">
+        <source>Edit item</source>
+        <target>Item bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.edit.1">
+        <source>Edit item %s</source>
+        <target>Item %s bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.copy.0">
+        <source>Duplicate item</source>
+        <target>Item duplizieren</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.copy.1">
+        <source>Duplicate item %s</source>
+        <target>Item %s duplizieren</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cut.0">
+        <source>Move item</source>
+        <target>Item verschieben</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cut.1">
+        <source>Move item %s</source>
+        <target>Item %s verschieben</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.delete.0">
+        <source>Delete item</source>
+        <target>Item löschen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.delete.1">
+        <source>Delete item %s</source>
+        <target>Item %s löschen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.toggle.0">
+        <source>Publish/unpublish item</source>
+        <target>Item veröffentlichen/unveröffentlichen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.toggle.1">
+        <source>Publish/unpublish item %s</source>
+        <target>Item %s veröffentlichen/unveröffentlichen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.editheader.0">
+        <source>Edit collection settings</source>
+        <target>Sammlungseinstellungen bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.editheader.1">
+        <source>Edit the collection settings</source>
+        <target>Die Sammlungseinstellungen bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.pasteafter.0">
+        <source>Paste into this collection</source>
+        <target>In diese Sammlung einfügen</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.pasteafter.1">
+        <source>Paste after item %s</source>
+        <target>Nach dem Item %s einfügen</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

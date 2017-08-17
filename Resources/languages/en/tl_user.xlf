@@ -1,0 +1,21 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/custom-collection/languages/en/tl_user.php" source-language="en">
+    <body>
+      <trans-unit id="tl_user.ccol.0">
+        <source>Allowed collections</source>
+      </trans-unit>
+      <trans-unit id="tl_user.ccol.1">
+        <source>Here you can grant access to one or more collections.</source>
+      </trans-unit>
+      <trans-unit id="tl_user.ccolp.0">
+        <source>Collection permissions</source>
+      </trans-unit>
+      <trans-unit id="tl_user.ccolp.1">
+        <source>Here you can define the collection permissions.</source>
+      </trans-unit>
+      <trans-unit id="tl_user.ccol_legend">
+        <source>Custom collection permissions</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

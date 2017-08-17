@@ -1,0 +1,13 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+<div class="row">
+    <div class="small-12">
+        <ul class="collection">
+          <?php foreach ($this->collection as $item): ?>
+            <?= $item ?>
+          <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+<?php $this->endblock(); ?>

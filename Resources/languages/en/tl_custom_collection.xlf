@@ -1,0 +1,204 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/custom-collection/languages/en/tl_custom_collection.php" source-language="en">
+    <body>
+      <trans-unit id="tl_custom_collection.title.0">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.title.1">
+        <source>Please enter the news title.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alias.0">
+        <source>Alias</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alias.1">
+        <source>The alias is a unique reference to the collection item which can be called instead of its numeric ID.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.text.0">
+        <source>Text</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.text.1">
+        <source>You can use HTML tags to format the text.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.addImage.0">
+        <source>Add an image</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.addImage.1">
+        <source>Add an image to the news item.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.singleSRC.0">
+        <source>Source file</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.singleSRC.1">
+        <source>Please select a file or folder from the files directory.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alt.0">
+        <source>Alternate text</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.alt.1">
+        <source>Here you can enter an alternate text for the image (&lt;em&gt;alt&lt;/em&gt; attribute).</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.size.0">
+        <source>Image size</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.size.1">
+        <source>Here you can set the image dimensions and the resize mode.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.multiSRC.0">
+        <source>Source files</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.multiSRC.1">
+        <source>Please select one or more files or folders from the files directory. If you select a folder, its files will be included automatically.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.orderSRC.0">
+        <source>Sort order</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.orderSRC.1">
+        <source>The sort order of the items.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.numberOfItems.0">
+        <source>Total number of images</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.numberOfItems.1">
+        <source>Here you can limit the total number of images. Set to 0 to show all.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.sortBy.0">
+        <source>Order by</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.sortBy.1">
+        <source>Please choose the sort order.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.galleryTpl.0">
+        <source>Gallery template</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.galleryTpl.1">
+        <source>Here you can select the gallery template.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.html.0">
+        <source>HTML code</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.html.1">
+        <source>You can modify the list of allowed HTML tags in the back end settings.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listtype.0">
+        <source>List type</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listtype.1">
+        <source>Please choose the type of list.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listitems.0">
+        <source>List items</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.listitems.1">
+        <source>If JavaScript is disabled, make sure to save your changes before modifying the order.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.linkTitle.0">
+        <source>Link text</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.linkTitle.1">
+        <source>The link text will be displayed instead of the target URL.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.titleText.0">
+        <source>Link title</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.titleText.1">
+        <source>The link title is added as &lt;em&gt;title&lt;/em&gt; attribute in the HTML markup.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cssClass.0">
+        <source>CSS class</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cssClass.1">
+        <source>Here you can enter one or more classes.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.published.0">
+        <source>Publish item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.published.1">
+        <source>Make the news item publicly visible on the website.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.start.0">
+        <source>Show from</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.start.1">
+        <source>Do not show the news item on the website before this day.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.stop.0">
+        <source>Show until</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.stop.1">
+        <source>Do not show the news item on the website on and after this day.</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.title_legend">
+        <source>Collection title</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.text_legend">
+        <source>Text/HTML/Code</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.list_legend">
+        <source>List items</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.link_legend">
+        <source>Hyperlink settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.template_legend">
+        <source>Template settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.image_legend">
+        <source>Image settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.expert_legend">
+        <source>Expert settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.publish_legend">
+        <source>Publish settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.new.0">
+        <source>New item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.new.1">
+        <source>Create a new item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.edit.0">
+        <source>Edit item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.edit.1">
+        <source>Edit item %s</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.copy.0">
+        <source>Duplicate item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.copy.1">
+        <source>Duplicate item %s</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cut.0">
+        <source>Move item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.cut.1">
+        <source>Move item %s</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.delete.0">
+        <source>Delete item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.delete.1">
+        <source>Delete item %s</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.toggle.0">
+        <source>Publish/unpublish item</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.toggle.1">
+        <source>Publish/unpublish item %s</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.editheader.0">
+        <source>Edit collection settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.editheader.1">
+        <source>Edit the collection settings</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.pasteafter.0">
+        <source>Paste into this collection</source>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.pasteafter.1">
+        <source>Paste after item %s</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
