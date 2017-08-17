@@ -1,5 +1,8 @@
 <?php
 
+use Oneup\Bundle\ContaoCustomCollectionBundle\Model\CustomCollectionModel;
+use Oneup\Bundle\ContaoCustomCollectionBundle\Model\CustomCollectionArchiveModel;
+
 /**
  * Table tl_custom_collection
  */
@@ -440,8 +443,8 @@ class tl_custom_collection extends Backend
     public function saveCollectionType(DC_Table $dt)
     {
         $id = Input::get('id');
-        $pid = CustomCollection\Model\CustomCollectionModel::findById($id)->pid;
-        $type = CustomCollection\Model\CustomCollectionArchiveModel::findById($pid)->coltype;
+        $pid = CustomCollectionModel::findById($id)->pid;
+        $type = CustomCollectionArchiveModel::findById($pid)->coltype;
         $type = strtolower(preg_replace('/\s/', '_', $type));
 
         $this->Database->prepare("UPDATE tl_custom_collection SET type=? WHERE id=?")->execute($type, $id);
