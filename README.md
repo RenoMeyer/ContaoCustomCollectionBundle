@@ -2,8 +2,7 @@
 
 
 ## Use
-1. Extend the `tl_custom_collection.php` table:
-   Add a custom subpalette for each collection. The name must correspond to `type_<collection_archive>`, whereas collection_archive is the name of your collection archive in snake case. E.g. for an archive called "Example Collection":
+1. Extend the `tl_custom_collection.php` table by adding a custom subpalette for each collection. The name must correspond to `type_<collection_archive>`, whereas collection_archive is the name of your collection archive in snake case. E.g. for an archive called "Example Collection":
    ```php
    $GLOBALS['TL_DCA']['tl_custom_collection']['subpalettes']['type_example_collection'] = ';{image_legend},addImage;{text_legend},text;';
    ```
