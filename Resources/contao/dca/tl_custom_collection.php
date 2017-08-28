@@ -1,6 +1,6 @@
 <?php
 
-use Oneup\Bundle\CustomCollectionModel;
+use Oneup\Bundle\ContaoCustomCollectionBundle\Model\CustomCollectionModel;
 use Oneup\Bundle\ContaoCustomCollectionBundle\Model\CustomCollectionArchiveModel;
 
 /**
