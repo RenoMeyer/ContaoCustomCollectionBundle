@@ -18,4 +18,4 @@
      'sql'                     => "varchar(255) NOT NULL default ''"
    ];
    ```
-2. After install and DB update, create a custom collection archive in the Contao Backend.
+2. After install and DB update, create a custom collection archive in the Contao Backend and start adding items to your collection.
