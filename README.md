@@ -8,8 +8,8 @@
    ```
    You can thereby chose from numerous predefined fields, or, add your custom fields to the `fields` array, e.g.:
    ```php
-   $GLOBALS['TL_DCA']['tl_custom_collection']['fields']['customTextField'] = [
-     'label'                   => &$GLOBALS['TL_LANG']['tl_custom_collection']['customTextField'],
+   $GLOBALS['TL_DCA']['tl_custom_collection']['fields']['exampleTextField'] = [
+     'label'                   => &$GLOBALS['TL_LANG']['tl_custom_collection']['exampleTextField'],
      'exclude'                 => true,
      'search'                  => true,
      'sorting'                 => true,
