@@ -1,13 +1,9 @@
 <?php $this->extend('block_unsearchable'); ?>
 
 <?php $this->block('content'); ?>
-<div class="row">
-    <div class="small-12">
-        <ul class="collection">
-          <?php foreach ($this->collection as $item): ?>
-            <?= $item ?>
-          <?php endforeach; ?>
-        </ul>
-    </div>
-</div>
+  <ul class="collection <?= strtolower(preg_replace('/\s/','_', $this->name)) ?> row align-justified">
+    <?php foreach ($this->collection as $item): ?>
+      <?= $item ?>
+    <?php endforeach; ?>
+  </ul>
 <?php $this->endblock(); ?>

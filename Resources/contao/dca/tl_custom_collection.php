@@ -1,5 +1,8 @@
 <?php
 
+use Oneup\Bundle\CustomCollectionModel;
+use Oneup\Bundle\ContaoCustomCollectionBundle\Model\CustomCollectionArchiveModel;
+
 /**
  * Table tl_custom_collection
  */
@@ -77,8 +80,8 @@ $GLOBALS['TL_DCA']['tl_custom_collection'] = [
      * To add a custom subpalette, just add 'type_' and what ever the collection is called (in snake_case)
      */
     'subpalettes' => [
-        'addImage'                    => 'singleSRC,size,alt',
-        'addImages'                   => 'multiSRC,sortBy,numberOfItems,size,alt,galleryTpl',
+        'addImage'                    => 'singleSRC,size,alt,imageLink',
+        'addImages'                   => 'multiSRC,sortBy,numberOfItems,size,alt,imageLink,galleryTpl',
         'published'                   => 'start,stop'
     ],
 
@@ -169,6 +172,12 @@ $GLOBALS['TL_DCA']['tl_custom_collection'] = [
             'reference'               => &$GLOBALS['TL_LANG']['MSC'],
             'eval'                    => ['rgxp'=>'natural', 'includeBlankOption'=>true, 'nospace'=>true, 'helpwizard'=>true, 'tl_class'=>'w50'],
             'sql'                     => "varchar(64) NOT NULL default ''"
+        ],
+        'imageLink' => [
+            'label'                   => &$GLOBALS['TL_LANG']['tl_custom_collection']['imageLink'],
+            'exclude'                 => true,
+            'inputType'               => 'checkbox',
+            'sql'                     => "char(1) NOT NULL default ''"
         ],
         'addImages' => [
             'label'                   => &$GLOBALS['TL_LANG']['tl_custom_collection']['addImages'],
@@ -440,8 +449,8 @@ class tl_custom_collection extends Backend
     public function saveCollectionType(DC_Table $dt)
     {
         $id = Input::get('id');
-        $pid = CustomCollection\Model\CustomCollectionModel::findById($id)->pid;
-        $type = CustomCollection\Model\CustomCollectionArchiveModel::findById($pid)->coltype;
+        $pid = CustomCollectionModel::findById($id)->pid;
+        $type = CustomCollectionArchiveModel::findById($pid)->coltype;
         $type = strtolower(preg_replace('/\s/', '_', $type));
 
         $this->Database->prepare("UPDATE tl_custom_collection SET type=? WHERE id=?")->execute($type, $id);

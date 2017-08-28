@@ -1,0 +1,23 @@
+{
+  name: "oneup/contao-custom-collection-bundle",
+  type: "contao-bundle",
+  homepage: "http://1up.io",
+  license: "MIT",
+  authors: [
+    {
+    name: "Reno Meyer",
+    email: "rm@1up.io",
+    homepage: "http://1up.io",
+    role: "Developer"
+    }
+  ],
+  require: {
+    php: ">=5.5",
+    contao/core-bundle: "^4.2"
+  },
+  autoload: {
+    psr-4: {
+      Oneup\Bundle\ContaoCustomCollectionBundle\: ""
+    }
+  }
+}

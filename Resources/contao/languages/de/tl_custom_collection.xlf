@@ -49,6 +49,14 @@
         <source>Here you can enter an alternate text for the image (&lt;em&gt;alt&lt;/em&gt; attribute).</source>
         <target>Hier können Sie einen alternativen Text für das Bild eingeben (&lt;em&gt;alt&lt;/em&gt;-Attribut).</target>
       </trans-unit>
+      <trans-unit id="tl_custom_collection.imageLink.0">
+        <source>Image link</source>
+        <target>Bildlink</target>
+      </trans-unit>
+      <trans-unit id="tl_custom_collection.imageLink.1">
+        <source>Do you want to add an image link?</source>
+        <target>Wollen Sie einen Bildlink hinzufügen?</target>
+      </trans-unit>
       <trans-unit id="tl_custom_collection.size.0">
         <source>Image size</source>
         <target>Bildgröße</target>

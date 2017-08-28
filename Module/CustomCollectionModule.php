@@ -359,7 +359,7 @@ class CustomCollectionModule extends \Module
       $strTemplate = 'gallery_collection';
 
       // Use a custom template
-      if (TL_MODE == 'FE' && $this->galleryTpl != '')
+      if (TL_MODE == 'FE' && $objItem->galleryTpl != '')
       {
         $strTemplate = $objItem->galleryTpl;
       }
@@ -368,6 +368,8 @@ class CustomCollectionModule extends \Module
       $objGalleryTemplate = new \FrontendTemplate($strTemplate);
       $objGalleryTemplate->setData($objItem->arrData);
       $objGalleryTemplate->images = $arrImages;
+      $objGalleryTemplate->groupId = $objItem->id;
+      $objGalleryTemplate->imageLink = $objItem->imageLink;
 
       $objTemplate->images = $objGalleryTemplate->parse();
     }
